@@ -1,3 +1,5 @@
+# CURRENTLY STILL USING LOCAL API NOT USABLE YET!
+
 # Byteauth ConsoleApp
 
 ByteAtuh ConsoleApp is a opensource project used to manage Your ByteAuth Users,Projects And Keys

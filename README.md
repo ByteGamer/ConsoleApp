@@ -5,7 +5,7 @@ ByteAtuh ConsoleApp is a opensource project used to manage Your ByteAuth Users,P
 
 Navigate to your Installation folder and use the following command to install the required packages.
 ```bash
-pip install -r
+pip install -r requirements.txt
 ```
 
 ## Usage

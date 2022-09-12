@@ -4,9 +4,7 @@
 #This source code is licensed under the BSD-style license found in the
 #LICENSE file in the root directory of this source tree. 
 
-from multiprocessing.sharedctypes import Value
 from time import sleep
-from urllib import request
 from pyfiglet import Figlet
 import os
 import requests
@@ -16,6 +14,8 @@ from rich.table import Table
 from rich import box
 from getpass import getpass
 import traceback
+
+
 
 
 
@@ -67,7 +67,7 @@ try:
                 except:
                     #print(loginResponse["projects"])
                     projectsScreen(name,password)
-                    sleep(1)
+                    sleep(1)    
             elif choice == '2':
                 start()
                 console.print('\nRegister',style='bold blue')
